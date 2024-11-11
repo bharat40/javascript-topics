@@ -1,0 +1,99 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.choices-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    height: 220px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice img{
+    height: 200px;
+    width: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choice img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.score-container {
+    display: flex;
+    gap: 80px;
+    font-size: 40px;
+    color: black;
+}
+
+#theme-btn {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+
+#reset {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+
+#reset:hover {
+    cursor: pointer;
+}
+
+#theme-btn:hover {
+    cursor: pointer;
+}
+
+#mssg {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+}

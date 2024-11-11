@@ -1,0 +1,19 @@
+.heading-class {
+  background-color: black;
+  color: red;
+  text-align: center;
+}
+body {
+  background-color: pink;
+}
+h4 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+#myId {
+  background-color: aquamarine;
+}
